@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.menu{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    background: #2E8B57;
+}
+
+.menu ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 50px;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+    line-height: 50px;
+    transition: 0.3s;
+}
+
+.menu ul li a:hover{
+    color: #000;
+    background-color: #fff;
+    padding: 10px;
+}
+
+.about{
+    background: url(../images/bg/bg6.jpg) no-repeat left;
+    background-size: 60%;
+    background-color: antiquewhite;
+    overflow: hidden;
+    padding: 100px 0;
+    height: 100vh;
+    display: flex;
+}
+
+.inner-container{
+    width: 55%;
+    float: right;
+    background-color: #fff;
+    padding: 150px;
+    margin-left: 600px;
+}
+
+.inner-container h1{
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: 900;
+    color: orange;
+    text-align: center;
+    margin-top: -100px;
+    margin-left: -40px;
+}
+
+.inner-container p{
+    margin: 0 -40px;
+    font-size: 13px;
+    color: teal;
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+
+.footer{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    background: #008080;
+    padding: 20px 0px;
+}
+
+.icon{
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+.icon ul{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+.icon ul li{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 0px 10px;
+    border-radius: 100%;
+    background: #32cd32;
+}
+
+.icon ul li a{
+    color: #272727;
+    font-size: 25px;
+}
+
+.icon ul li a i{
+    line-height: 50px;
+}
+
+.icon ul li:hover{
+    background-color: #fff;
+}
+
+.footer h5{
+    color: #fff;
+    text-align: center;
+    margin-top: 15px;
+    font-size: 16px;
+}
+
+.footer h5 span{
+    color: red;
+}
+
+.footer p{
+    text-align: center;
+    color: gold;
+    margin-top: 10px;
+}
+
+.footer-bottom{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    background: #32CD32;
+    padding: 15px;
+}
+
+.footer-bottom p{
+    font-size: 18px;
+    text-align: center;
+    color: #000;
+}
+
+
